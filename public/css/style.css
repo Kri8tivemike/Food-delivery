@@ -599,6 +599,18 @@ video {
   gap: 2.5rem;
 }
 
+.gap-y-4{
+  row-gap: 1rem;
+}
+
+.gap-y-8{
+  row-gap: 2rem;
+}
+
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
 .self-center{
   align-self: center;
 }
@@ -869,6 +881,10 @@ video {
     height: 12rem;
   }
 
+  .sm\:gap-y-4{
+    row-gap: 1rem;
+  }
+
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -902,6 +918,10 @@ video {
 
   .md\:justify-end{
     justify-content: flex-end;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
   }
 
   .md\:bg-green-300{
