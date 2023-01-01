@@ -595,18 +595,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-10{
-  gap: 2.5rem;
-}
-
-.gap-y-4{
-  row-gap: 1rem;
-}
-
-.gap-y-8{
-  row-gap: 2rem;
-}
-
 .gap-y-10{
   row-gap: 2.5rem;
 }
@@ -798,12 +786,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px){
-  .card{
-    margin-bottom: 2.5rem;
-  }
-}
-
 .badge{
   position: absolute;
   top: 0.5rem;
@@ -879,10 +861,6 @@ video {
 @media (min-width: 640px){
   .sm\:h-48{
     height: 12rem;
-  }
-
-  .sm\:gap-y-4{
-    row-gap: 1rem;
   }
 
   .sm\:text-xl{
