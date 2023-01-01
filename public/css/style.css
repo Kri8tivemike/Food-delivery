@@ -595,10 +595,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-3{
-  gap: 0.75rem;
-}
-
 .gap-10{
   gap: 2.5rem;
 }
@@ -767,16 +763,12 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-300{
-  transition-duration: 300ms;
-}
-
 .duration-500{
   transition-duration: 500ms;
 }
 
-.duration-700{
-  transition-duration: 700ms;
+.duration-300{
+  transition-duration: 300ms;
 }
 
 .ease-in-out{
@@ -792,6 +784,12 @@ video {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 640px){
+  .card{
+    margin-bottom: 2.5rem;
+  }
 }
 
 .badge{
@@ -847,18 +845,6 @@ video {
 
 .hover\:bg-opacity-50:hover{
   --tw-bg-opacity: 0.5;
-}
-
-.hover\:bg-opacity-70:hover{
-  --tw-bg-opacity: 0.7;
-}
-
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
-.hover\:bg-opacity-40:hover{
-  --tw-bg-opacity: 0.4;
 }
 
 .hover\:text-green-600:hover{
